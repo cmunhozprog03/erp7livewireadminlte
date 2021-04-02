@@ -10,14 +10,15 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-        <div class="row">
 
-            <main">
-                @livewire('companies.companies-component')
+
+            <main>
+
+                @yield('content')
 
             </main>
 
-        </div>
+        
       </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->

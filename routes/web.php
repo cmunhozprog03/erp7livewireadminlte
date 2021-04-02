@@ -21,6 +21,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/empresas', function () {
+    return view('livewire.companies.index');
+})->middleware('auth')->name('empresas');

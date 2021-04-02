@@ -49,5 +49,7 @@
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ asset('admin/dist/js/pages/dashboard.js')}}"></script>
 @livewireScripts
+
+<script src="{{ asset('js/scripts.js') }}"></script>
 </body>
 </html>
