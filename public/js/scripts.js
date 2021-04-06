@@ -1,6 +1,6 @@
 
 
-
+    // Companies Modal
     window.addEventListener('closeModal', event => {
         $("#companyModal").modal('hide');
     })
@@ -16,4 +16,7 @@
     window.addEventListener('closeDeleteModal', event => {
         $("#modalFormDelete").modal('hide');
     })
+
+    // Sectors Modal
+    
 

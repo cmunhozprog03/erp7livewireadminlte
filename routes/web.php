@@ -24,3 +24,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/empresas', function () {
     return view('livewire.companies.index');
 })->middleware('auth')->name('empresas');
+
+Route::get('/setores', function () {
+    return view('livewire.sectors.index');
+})->middleware('auth')->name('setores');

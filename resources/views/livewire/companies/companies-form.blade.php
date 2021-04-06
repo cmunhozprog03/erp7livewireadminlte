@@ -8,7 +8,7 @@
     </div>
     <div class="form-group">
         <label for="">Logotipo:</label>
-        <input wire:model="logo" type="text" class="form-control">
+        <input wire:model="logo" type="file" class="form-control">
         @error('logo')
             <span class="text-danger">{{ $message }}</span>
         @enderror
